@@ -51,4 +51,4 @@ Supports **Minecraft 1.21 – 1.21.11** (Paper & Spigot).
 Found a bug?
 Please include plugin version, Minecraft version & server software
 and open a ticket on our Discord:
-[https://discord.gg/YTCHWAap2z](https://discord.gg/YTCHWAap2z)
+https://discord.gg/YTCHWAap2z 
