@@ -1,0 +1,68 @@
+# ============================================================
+#   GhostyWarp - Language File [English]
+# ============================================================
+# Supports & color codes and \n for new lines.
+# Prefix is prepended automatically to all messages.
+
+prefix: "&8[&bGhostyWarp&8] &r"
+
+messages:
+  # General
+  no-permission: "&cYou don't have permission to do that."
+  player-only: "&cThis command can only be used by players."
+  reload: "&aConfiguration and language files reloaded successfully!"
+
+  # /addwarp
+  addwarp-usage: "&cUsage: /addwarp <name>"
+  addwarp-exists: "&cA warp with the name &e{warp} &calready exists!"
+  addwarp-success: "&aWarp &e{warp} &ahas been created successfully!"
+  addwarp-invalid-name: "&cWarp names may only contain letters, numbers, hyphens and underscores."
+
+  # /delwarp
+  delwarp-usage: "&cUsage: /delwarp <name>"
+  delwarp-not-found: "&cNo warp with the name &e{warp} &cwas found!"
+  delwarp-success: "&aWarp &e{warp} &ahas been deleted successfully!"
+
+  # /warps
+  warps-empty: "&cThere are no warps yet. Create one with /addwarp <name>."
+
+  # Teleport
+  teleport-success: "&aTeleported to warp &e{warp}&a!"
+  teleport-world-not-found: "&cThe world for warp &e{warp} &cdoes not exist anymore!"
+
+  # /gw list
+  gw-list-header: "&8============ &bWarps &8============"
+  gw-list-entry: "&7- &e{warp} &8| &7{world} &8| &7{x}, {y}, {z}"
+  gw-list-empty: "&7No warps have been created yet."
+  gw-list-footer: "&8==================================="
+
+  # /gw lore
+  gw-lore-usage: "&cUsage: /gw lore <warp> <line1|line2|...>"
+  gw-lore-success: "&aLore for warp &e{warp} &ahas been updated!"
+
+  # /gw slot
+  gw-slot-usage: "&cUsage: /gw slot <warp> <slot>"
+  gw-slot-invalid: "&cInvalid slot number. Must be between 0 and {max}."
+  gw-slot-success: "&aSlot for warp &e{warp} &ahas been set to &e{slot}&a!"
+
+  # /gw item
+  gw-item-usage: "&cUsage: /gw item <warp> <material>"
+  gw-item-invalid: "&cInvalid material: &e{material}"
+  gw-item-success: "&aItem for warp &e{warp} &ahas been set to &e{material}&a!"
+
+  # /gw name
+  gw-name-usage: "&cUsage: /gw name <warp> <display name...>"
+  gw-name-success: "&aDisplay name for warp &e{warp} &ahas been updated!"
+
+  # /gw
+  gw-help-header: "&8====== &bGhostyWarp Admin Help &8======"
+  gw-help-list: "&e/gw list &7- Lists all warps"
+  gw-help-lore: "&e/gw lore <warp> <line1|line2|...> &7- Sets lore (use | to separate lines)"
+  gw-help-slot: "&e/gw slot <warp> <slot> &7- Sets GUI slot"
+  gw-help-item: "&e/gw item <warp> <material> &7- Sets warp item material"
+  gw-help-name: "&e/gw name <warp> <name...> &7- Sets display name"
+  gw-help-reload: "&e/gw reload &7- Reloads config & lang files"
+  gw-help-footer: "&8======================================"
+
+  # Warp not found (generic)
+  warp-not-found: "&cWarp &e{warp} &cnot found!"

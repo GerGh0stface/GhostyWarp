@@ -1,0 +1,46 @@
+name: GhostyWarp
+version: ${project.version}
+main: ghostywarp.GhostyWarp
+api-version: 1.21
+authors: [Ger_Gh0stface]
+description: A fully customizable warp GUI plugin with multi-language support.
+
+commands:
+  warps:
+    description: Opens the warp GUI.
+    usage: /warps
+    permission: ghostywarp.use
+  addwarp:
+    description: Creates a new warp at your current location.
+    usage: /addwarp <name>
+    permission: ghostywarp.addwarp
+  delwarp:
+    description: Deletes an existing warp.
+    usage: /delwarp <name>
+    permission: ghostywarp.delwarp
+  gw:
+    description: GhostyWarp admin commands.
+    usage: /gw <list|lore|slot|item|name|reload>
+    permission: ghostywarp.admin
+
+permissions:
+  ghostywarp.use:
+    description: Allows using /warps
+    default: true
+  ghostywarp.addwarp:
+    description: Allows using /addwarp
+    default: op
+  ghostywarp.delwarp:
+    description: Allows using /delwarp
+    default: op
+  ghostywarp.admin:
+    description: Allows using /gw admin commands
+    default: op
+  ghostywarp.*:
+    description: Grants all GhostyWarp permissions
+    default: op
+    children:
+      ghostywarp.use: true
+      ghostywarp.addwarp: true
+      ghostywarp.delwarp: true
+      ghostywarp.admin: true

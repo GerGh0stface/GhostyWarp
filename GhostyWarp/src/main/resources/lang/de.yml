@@ -1,0 +1,67 @@
+# ============================================================
+#   GhostyWarp - Sprachdatei [Deutsch]
+# ============================================================
+# Unterstützt & Farbcodes und \n für neue Zeilen.
+
+prefix: "&8[&bGhostyWarp&8] &r"
+
+messages:
+  # Allgemein
+  no-permission: "&cDu hast keine Berechtigung dafür."
+  player-only: "&cDieser Befehl kann nur von Spielern verwendet werden."
+  reload: "&aKonfiguration und Sprachdateien wurden erfolgreich neu geladen!"
+
+  # /addwarp
+  addwarp-usage: "&cVerwendung: /addwarp <Name>"
+  addwarp-exists: "&cEin Warp mit dem Namen &e{warp} &cexistiert bereits!"
+  addwarp-success: "&aDer Warp &e{warp} &awurde erfolgreich erstellt!"
+  addwarp-invalid-name: "&cWarp-Namen dürfen nur Buchstaben, Zahlen, Bindestriche und Unterstriche enthalten."
+
+  # /delwarp
+  delwarp-usage: "&cVerwendung: /delwarp <Name>"
+  delwarp-not-found: "&cKein Warp mit dem Namen &e{warp} &cgefunden!"
+  delwarp-success: "&aDer Warp &e{warp} &awurde erfolgreich gelöscht!"
+
+  # /warps
+  warps-empty: "&cEs gibt noch keine Warps. Erstelle einen mit /addwarp <Name>."
+
+  # Teleport
+  teleport-success: "&aDu wurdest zum Warp &e{warp}&a teleportiert!"
+  teleport-world-not-found: "&cDie Welt für den Warp &e{warp} &cexistiert nicht mehr!"
+
+  # /gw list
+  gw-list-header: "&8========== &bWarp-Liste &8=========="
+  gw-list-entry: "&7- &e{warp} &8| &7{world} &8| &7{x}, {y}, {z}"
+  gw-list-empty: "&7Es wurden noch keine Warps erstellt."
+  gw-list-footer: "&8================================="
+
+  # /gw lore
+  gw-lore-usage: "&cVerwendung: /gw lore <Warp> <Zeile1|Zeile2|...>"
+  gw-lore-success: "&aDie Lore für Warp &e{warp} &awurde aktualisiert!"
+
+  # /gw slot
+  gw-slot-usage: "&cVerwendung: /gw slot <Warp> <Slot>"
+  gw-slot-invalid: "&cUngültige Slot-Nummer. Muss zwischen 0 und {max} liegen."
+  gw-slot-success: "&aDer Slot für Warp &e{warp} &awurde auf &e{slot} &agesetzt!"
+
+  # /gw item
+  gw-item-usage: "&cVerwendung: /gw item <Warp> <Material>"
+  gw-item-invalid: "&cUngültiges Material: &e{material}"
+  gw-item-success: "&aDas Item für Warp &e{warp} &awurde auf &e{material} &agesetzt!"
+
+  # /gw name
+  gw-name-usage: "&cVerwendung: /gw name <Warp> <Anzeigename...>"
+  gw-name-success: "&aDer Anzeigename für Warp &e{warp} &awurde aktualisiert!"
+
+  # /gw
+  gw-help-header: "&8===== &bGhostyWarp Admin-Hilfe &8====="
+  gw-help-list: "&e/gw list &7- Listet alle Warps auf"
+  gw-help-lore: "&e/gw lore <Warp> <Zeile1|Zeile2|...> &7- Setzt die Lore (| zum Trennen)"
+  gw-help-slot: "&e/gw slot <Warp> <Slot> &7- Setzt den GUI-Slot"
+  gw-help-item: "&e/gw item <Warp> <Material> &7- Setzt das Warp-Item-Material"
+  gw-help-name: "&e/gw name <Warp> <Name...> &7- Setzt den Anzeigenamen"
+  gw-help-reload: "&e/gw reload &7- Lädt Konfig & Sprachdateien neu"
+  gw-help-footer: "&8======================================"
+
+  # Warp nicht gefunden (generisch)
+  warp-not-found: "&cWarp &e{warp} &cnicht gefunden!"

@@ -1,0 +1,34 @@
+# ============================================================
+#   GhostyWarp Configuration
+#   Plugin by GhostyDev
+# ============================================================
+
+# Language to use. Available: en, de
+# You can add your own language files in the /lang/ folder.
+language: en
+
+# GUI Settings
+gui:
+  # Title of the warp GUI (supports & color codes)
+  title: "&8✦ &bGhostyWarp &8✦"
+  # Number of rows in the GUI (1-6, must fit all warps + decorations)
+  rows: 6
+  # Fill empty slots with a glass pane?
+  fill-empty: true
+  # Material for the filler item
+  fill-material: BLACK_STAINED_GLASS_PANE
+  # Display name of the filler item (use '' for no name)
+  fill-name: " "
+  # Border only (true) or fill all empty slots (false)
+  border-only: true
+
+# Default warp item settings (used when creating a new warp)
+default-warp-item:
+  material: ENDER_PEARL
+  # Placeholders: {warp} = warp name
+  display-name: "&b✦ &f{warp}"
+  lore:
+    - "&7Click to teleport!"
+    - ""
+    - "&8Location: &7{world}"
+    - "&8Coords: &7{x}, {y}, {z}"
